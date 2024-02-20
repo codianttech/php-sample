@@ -38,17 +38,6 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `name`, `email`, `phone_number`, `address`, `password`, `created_at`) VALUES
-(12, 'admin', 'backend@mailinator.com', '8159540564', '', 'f925916e2754e5e03f75dd58a5733251', '2024-02-20 06:58:44');
-
---
--- Indexes for dumped tables
---
-
---
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
@@ -62,7 +51,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
